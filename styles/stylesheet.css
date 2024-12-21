@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wholeContainer {
+    width: calc(100% - 314px);
+    margin: 0 auto;
+    margin-top: calc(4.5vh);
+    margin-bottom: calc(4.5vh);
+    padding: 96px;
+    background-color: #E8EEFF;
+}
+
+.mainContainer {}
+
+.headerContainer {
+    text-align: center;
+    padding-bottom: 71px;
+}
+
+.headerContainer h1 {
+    color: #181D27;
+    font-family: Inter;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -1.44px;
+    padding-bottom: 23px;
+}
+
+.headerContainer h1>span:first-child {
+    color: #05F;
+}
+
+.headerContainer h1>span:last-child {
+    display: block;
+}
+
+.headerContainer h1>span:last-child span {
+    color: #6941C6;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+}
+
+.headerContainer p {
+    color: #535862;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.headerContainer p span {
+    display: block;
+}
+
+.mainContainer>div:nth-child(2) {
+    width: calc(100% - 210px);
+    margin: 0 auto;
+    padding-bottom: 63px;
+}
+
+.mainContainer > :nth-child(2) img {
+    border-radius: 40px;
+}
+
+.featuresContainer {
+    padding-bottom: 63px;
+}
+
+.featuresContainer>div {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 8px;
+    background-color: #FFF;
+    padding: 16px;
+    max-width: 449px;
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.featuresContainer >div:hover {
+    transform: translateY(-30px);
+    background-color: #a2a2a4;
+}
+
+.featuresContainer>div:not(:last-child) {
+    margin-right: 19px;
+}
+
+.featuresContainer > div {
+    text-align: center;
+}
+
+.featuresContainer  > div > :first-child {
+    padding-bottom: 19px;   
+}
+
+.featuresContainer > div p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #181D27;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    padding-bottom: 7px;
+}
+
+.featuresContainer > div span {
+    display: block;
+    color: #535862;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+}
+
+/* last container */
+.visitContainer {
+    width: calc(100% - 195.87px);
+    margin: 0 auto;
+    height: auto;
+    background-color: #53389E;
+    border-radius: 24px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.visitContainer > :first-child  {
+    padding: 105px 64px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.visitContainer > :first-child :first-child {
+    color: #FFF;
+    font-size: 36px;
+    line-height: 44px;
+    font-family: Inter;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -0.72px;
+    padding-bottom: 19px;
+}
+
+.visitContainer div p:last-of-type {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Inter;
+    color: #E9d7fe;
+    margin-bottom: 47px;
+    width: fit-content;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.visitContainer div p:last-of-type:hover {
+    transform: translateX(20px);
+    color: #000;
+    background-color: #f2f2f2;
+}
+
+.visitContainer button {
+    max-width: 128px;
+    width: 100%;
+    padding: 12px 18px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+.visitContainer button:hover{
+    transform: translateY(5px);
+}
+
+
+.visitContainer button:first-of-type:hover {
+    background-color: #f2f2ff;
+}
+
+.visitContainer button:last-of-type:hover {
+    background-color: #A37EF0;
+} 
+
+.visitContainer button:first-of-type {
+    margin-right: 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: 1px solid #D5D7DA;
+    vertical-align: middle;
+    color: #000;
+}
+
+.visitContainer button:last-of-type {
+    background-color: #7F56D9;
+    border: 2px solid #FFF;
+    color: #fff;
+}
+
+.visitContainer > :last-child {
+    display: inline-block;
+    vertical-align: middle;
+    /* margin-left: 87px; */
+    float: right; /*  87პიქსელი მარჯინ-ლეფთით მარტო 1920 ეკრანზე ჯდება კუთხეში, ამიტო ფლოუტი ვარჩიე */
+}
+
+.visitContainer img {
+    display: block;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
